@@ -45,15 +45,17 @@ Here is the default configuration and an explanation of available options:
 ```yaml
 # enables or disables the plugin
 enabled: true
-# true = use current admin user (fullname) or false = use site author name (default)
-user: false
+# true = use current admin user (username) or false = use site author name
+user: true
+# true = full name will be added to frontmatter instead of username.
+fullname = false
 ```
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Sven Sanzenbacher
+Copyright (c) 2015-2018 Sven Sanzenbacher, Jakob Senkl
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
