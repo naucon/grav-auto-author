@@ -70,6 +70,7 @@ class AutoAuthorModPlugin extends Plugin
                 $avatar = $this->get_gravatar( $mail, 256, 'identicon', 'g', false );
             } else {
                 $author = $this->grav['config']->get('site.author.name');
+                $avatar = $this->grav['config']->get('site.author.image');
             }
             $header['author'] = $author;
             $header['avatar'] = $avatar;
