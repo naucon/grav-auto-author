@@ -48,7 +48,7 @@ enabled: true
 # true = use current admin user (username) or false = use site author name
 user: true
 # true = full name will be added to frontmatter instead of username.
-fullname = false
+fullname: false
 ```
 
 ## License
