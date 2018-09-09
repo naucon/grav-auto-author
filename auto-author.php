@@ -62,12 +62,18 @@ class AutoAuthorModPlugin extends Plugin
     {
         $header = $event['header'];
         if (!isset($header['author'])) {
-            if ($this->config->get('plugins.auto-author.user')) {
+            if ($this->config->get('plugins.auto-author.user') && $this->config->get('plugins.auto-author.fullname') == false) {
                 $admin = $this->grav['admin'];
                 $mail = $admin->user->get('email');
 
                 $author = $this->grav['user']->username;
                 $avatar = $this->get_gravatar( $mail, 256, 'identicon', 'g', false );
+            } else if ($this->config->get('plugins.auto-author.fullname')) {
+                $admin = $this->grav['admin'];
+                $mail = $admin->user->get('email');
+                
+                $author = $admin->user->get('fullname');
+                $avatar = $this->grav['config']->get('site.author.image');
             } else {
                 $author = $this->grav['config']->get('site.author.name');
                 $avatar = $this->grav['config']->get('site.author.image');
