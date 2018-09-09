@@ -1,2 +1,3 @@
 enabled: true
-user: false
+user: true
+fullname: false

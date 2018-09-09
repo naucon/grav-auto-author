@@ -1,5 +1,5 @@
 name: Auto Author
-version: 0.1.0
+version: 0.2.0
 description: Automatically adds an author to frontmatter when creating a new page via Grav Admin plugin
 icon: user-circle
 author:
@@ -30,10 +30,21 @@ form:
       type: toggle
       label: Current user
       highlight: 1
-      default: 0
+      default: 1
       options:
         1: Enabled
         0: Disabled
       validate:
         type: bool
       help: use current admin user (fullname) or site author
+    fullname:
+      type: toggle
+      label: use Full Name
+      highlight: 0
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+      help: use fullname instead of username
