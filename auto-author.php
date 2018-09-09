@@ -9,7 +9,7 @@ use RocketTheme\Toolbox\Event\Event;
  * Class AutoAuthorPlugin
  * @package Grav\Plugin
  */
-class AutoAuthorModPlugin extends Plugin
+class AutoAuthorPlugin extends Plugin
 {
     /**
      * @return array
