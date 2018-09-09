@@ -1,5 +1,5 @@
 name: Auto Author
-version: 0.1.0
+version: 0.2.0
 description: Automatically adds an author to frontmatter when creating a new page via Grav Admin plugin
 icon: user-circle
 author:
