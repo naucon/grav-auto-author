@@ -45,8 +45,10 @@ Here is the default configuration and an explanation of available options:
 ```yaml
 # enables or disables the plugin
 enabled: true
-# true = use current admin user (fullname) or false = use site author name (default)
-user: false
+# true = use current admin user (username) or false = use site author name
+user: true
+# true = full name will be added to frontmatter instead of username.
+fullname: false
 ```
 
 ## License
