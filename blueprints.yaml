@@ -4,10 +4,10 @@ description: Automatically adds an author to frontmatter when creating a new pag
 icon: user-circle
 author:
   name: Sven Sanzenbacher
-homepage: https://github.com/naucon/grav-plugin-auto-author
+homepage: https://github.com/naucon/grav-auto-author
 keywords: grav, plugin, auto-author, author, autor, frontmatter
-bugs: https://github.com/naucon/grav-plugin-auto-author/issues
-docs: https://github.com/naucon/grav-plugin-auto-author/blob/develop/README.md
+bugs: https://github.com/naucon/grav-auto-author/issues
+docs: https://github.com/naucon/grav-auto-author/blob/master/README.md
 license: MIT
 
 dependencies:
