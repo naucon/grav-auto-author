@@ -45,7 +45,7 @@ Here is the default configuration and an explanation of available options:
 ```yaml
 # enables or disables the plugin
 enabled: true
-# true = use current admin user (fullname) or false = use site author name (default)
+# true = use the fullname of the user currently creating the page, or false = use site author name (default)
 user: false
 ```
 
