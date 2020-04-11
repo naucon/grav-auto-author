@@ -49,6 +49,14 @@ enabled: true
 user: false
 ```
 
+## Usage
+To output the author in your specific theme you can add the following code wherever is needed.
+```
+{% if page.header.author %}
+ {{ page.header.author }}
+{% endif %}
+```
+
 ## License
 
 The MIT License (MIT)
